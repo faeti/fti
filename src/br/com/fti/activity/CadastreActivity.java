@@ -74,7 +74,7 @@ public class CadastreActivity extends BaseActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 	    MenuInflater inflater = getMenuInflater();
-	    inflater.inflate(R.menu.main_activity_actions, menu);
+	    inflater.inflate(R.menu.menu_actions, menu);
 	    return super.onCreateOptionsMenu(menu);
 	}
 	

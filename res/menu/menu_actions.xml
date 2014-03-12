@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_new"
+          android:icon="@drawable/ic_action_new_light"
+          android:showAsAction="always"
+          android:title="@string/novo"/>
+    <item android:id="@+id/action_save"
+          android:icon="@drawable/ic_action_accept_light"
+          android:showAsAction="always"
+          android:title="@string/salvar" />
+    <item android:id="@+id/action_delete"
+          android:icon="@drawable/ic_action_cancel_light"
+          android:showAsAction="always"
+          android:title="@string/excluir" />
+    <item android:id="@+id/action_cancel"
+          android:icon="@drawable/ic_action_undo_light"
+          android:showAsAction="always"
+          android:title="@string/ocultar" />
+</menu>

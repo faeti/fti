@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:orientation="horizontal" 
+    android:padding="5sp"> 
+    
+    <TextView 
+        android:id="@+id/idCodigoItem" 
+        android:layout_width="wrap_content" 
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+    
+    <TextView 
+        android:id="@+id/idFlagItem" 
+        android:layout_width="wrap_content" 
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+        
+    <TextView 
+        android:id="@+id/idDescricaoItem" 
+        android:layout_width="wrap_content" 
+        android:layout_height="match_parent"
+        android:layout_gravity="left" 
+        android:textColor="#FF000000" /> 
+        
+</LinearLayout> 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FTI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="codigo">Código</string>
+    <string name="descricao">Decrição</string>
+    <string name="novo">Novo</string>
+    <string name="salvar">Salvar</string>
+	<string name="excluir">Excluir</string>
+    <string name="tipo_item">Tipo de Item</string>
+    <string name="tipo_conta">Tipo de Conta</string>
+    <string name="ocultar">Ocultar</string>
+    <string name="sucesso_add">Registro Salvo com Sucesso</string>
+    <string name="sucesso_delete">Registro Excluído com Sucesso</string>
+    <string name="fail_search_register">Registro não encontrado!</string>
+    <string name="transacao">Tipo Transação</string>
+    <string name="item">Item</string>
+    <string name="data">Data</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="valor">Valor</string>
+</resources>
