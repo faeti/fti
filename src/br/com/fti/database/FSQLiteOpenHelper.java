@@ -1,13 +1,12 @@
 package br.com.fti.database;
 
-import br.com.ftigfin.models.lancamento.BVLancamento;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class FSQLiteOpenHelper extends SQLiteOpenHelper {
 	
-	private static final String DATABASE_NAME = "FTIGFIN";
+	private static final String DATABASE_NAME = "FTI";
 	
 	private static final int DATABASE_VERSION = 14;
 	
@@ -17,7 +16,6 @@ public class FSQLiteOpenHelper extends SQLiteOpenHelper {
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-		db.execSQL(BVLancamento.CREATE_TABLE);
 	}
 
 	@Override

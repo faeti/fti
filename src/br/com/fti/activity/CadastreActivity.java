@@ -15,7 +15,7 @@ import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 import br.com.fti.widget.FItemListView;
 import br.com.fti.widget.FToast;
-import br.com.ftigfin.R;
+import br.com.fti.R;
 
 public class CadastreActivity extends BaseActivity {
 	

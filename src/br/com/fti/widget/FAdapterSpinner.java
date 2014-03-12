@@ -2,7 +2,7 @@ package br.com.fti.widget;
 
 import java.util.List;
 
-import br.com.ftigfin.R;
+import br.com.fti.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
