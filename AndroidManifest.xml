@@ -12,9 +12,9 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppBaseTheme" >
+        android:theme="@style/AppTheme" >
         <activity
-            android:name=".activity.BaseActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,8 +23,13 @@
             </intent-filter>
         </activity>
         <activity 
-            android:name=".activity.CadastreActivity" >
-        </activity>
+            android:name=".activity.BaseActivity" 
+            android:label="@string/cadastre"
+            android:uiOptions="splitActionBarWhenNarrow" ></activity>
+        <activity 
+            android:name=".activity.CadastreActivity" 
+            android:label="@string/cadastre"
+            android:uiOptions="splitActionBarWhenNarrow" ></activity>
     </application>
 
 </manifest>
